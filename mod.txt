@@ -8,7 +8,7 @@
 		{
 			"identifier": "mpc",
 			"host": {
-					"meta": "https://raw.githubusercontent.com/vojin154/pd2_mtc/main/meta.json"
+					"meta": "https://raw.githubusercontent.com/vojin154/pd2_mpc/main/meta.json"
 				}
         	}
 	],
