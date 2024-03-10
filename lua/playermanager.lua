@@ -18,7 +18,7 @@ Hooks:PostHook(PlayerManager, "on_killshot", "on_killshot_socio_contour", functi
 
 			for _, unit in pairs(units) do
 				if alive(unit) and unit:character_damage() and not unit:character_damage():dead() then
-                    unit:contour():add("highlight_character", true , 1, Color(MPC.settings.a, MPC.settings.r, MPC.settings.g, MPC.settings.b))
+                    unit:contour():add("highlight_character", false , 1, Color(MPC.settings.a, MPC.settings.r, MPC.settings.g, MPC.settings.b))
 				end
 			end
 		end
