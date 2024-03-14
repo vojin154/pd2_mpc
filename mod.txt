@@ -3,7 +3,7 @@
 	"description" : "Contour for cops affected by panic",
 	"author" : "vojin154",
 	"contact" : "vojin154 (Discord)",
-	"version" : "1.3",
+	"version" : "1.4",
 	"updates": [
 		{
 			"identifier": "mpc",
@@ -17,17 +17,11 @@
 			"hook_id" : "lib/managers/menumanager",
 			"script_path" : "main.lua"
 		},
-		{	"hook_id" : "lib/managers/playermanager",
-			"script_path" : "main.lua"
-		},
-		{	"hook_id" : "lib/units/weapons/raycastweaponbase",
+		{	"hook_id" : "lib/units/enemies/cop/actions/full_body/copactionact",
 			"script_path" : "main.lua"
 		},
 		{	"hook_id" : "lib/units/enemies/cop/copdamage",
 			"script_path" : "main.lua"
-		},
-		{	"hook_id" : "lib/units/enemies/cop/copmovement",
-			"script_path" : "main.lua"
 		}
-	],
+	]
 }

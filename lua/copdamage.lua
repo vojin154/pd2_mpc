@@ -1,7 +1,11 @@
 --JUST TO BE SURE IT GETS PROPERLY REMOVED
 
 local function remove(self)
-	if not alive(self._unit) or self._dead then
+	if not self._unit:contour() then
+		return
+	end
+
+	if (not alive(self._unit) and self._unit:character_damage()._dead) or self._dead then
 		self._unit:contour():remove("highlight_character", true)
 	end
 end
