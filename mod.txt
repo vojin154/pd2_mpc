@@ -3,7 +3,7 @@
 	"description" : "Contour for cops affected by panic",
 	"author" : "vojin154",
 	"contact" : "vojin154 (Discord)",
-	"version" : "1.4",
+	"version" : "1.4.1",
 	"updates": [
 		{
 			"identifier": "mpc",
